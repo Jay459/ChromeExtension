@@ -1,0 +1,10 @@
+{
+    "name" : "basic_extension(release_1)",
+    "description" : "displays the name",
+    "version" : "1.0.0",
+    "manifest_version"  : 2,
+    "permissions" : ["storage"],
+    "browser_action" : {
+        "default_popup" : "index.html"
+    }
+}

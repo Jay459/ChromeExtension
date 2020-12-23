@@ -1,0 +1,10 @@
+{
+    "name" : "release_2(new_tab)",
+    "version" : "1.0.0",
+    "description" : "display content in new tab",
+    "manifest_version" : 2,
+    "permissions" : ["storage" , "tabs"],
+    "chrome_url_overrides" : {
+        "newtab" : "index.html"
+    }
+}

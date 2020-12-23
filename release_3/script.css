@@ -1,0 +1,33 @@
+body
+{
+    background-image: url("https://images3.alphacoders.com/449/thumb-1920-44975.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container
+{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+p
+{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+#countries
+{
+    font-size: large;
+    border-radius: 15px;
+}
+
+#countries:hover
+{
+    background-color: black;
+    color: white;
+}

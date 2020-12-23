@@ -1,0 +1,10 @@
+{
+    "name" : "API",
+    "manifest_version" : 2,
+    "version" : "1.0.0",
+    "description" : "shows the API data",
+    "permissions" : ["bookmarks" , "storage" , "tabs"],
+    "chrome_url_overrides" : {
+        "newtab" : "index.html"
+    }
+}
